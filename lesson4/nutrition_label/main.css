@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial;
+  font-size: 28px;
+}
+
+body {
+  border: 2px solid black;
+  width: 676px;
+  height: 1000px;
+  font-family: Helvetica, Arial;
+}
+
+header {
+  padding: 5px;
+  padding-bottom: 3px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+h1 {
+  font-family: "Frankling Gothic Heavy", Arial;
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 900;
+}
+
+p {
+  font-family: Helvetica, Arial;
+  margin: 0;
+}
+
+th {
+  width: 100%
+}
+
+td {
+  width: 50%;
+  padding-top: 3px;
+}
+
+sup {
+  vertical-align: 10%;
+}
+
+[colspan='2'][scope='col'] {
+  text-align: left;
+  padding: 10px 0;
+  border-top: 30px solid black;
+}
+
+[colspan='3'] {
+  text-align: right;
+  border-top: 15px solid black;
+  padding-top: 10px;
+}
+
+table {
+  width: 96.3%;
+  margin: auto;
+}
+
+td:last-child {
+  text-align: right;
+
+}
+
+thead th {
+  border-bottom: 0.3px solid black;
+  padding-top: 5px;
+}
+
+dl {
+  width: 95.5%;
+  display: block;
+}
+
+dt, dd {
+  display: inline-block;
+  margin-left: 10
+}
+
+/* dt:first-of-type {
+  border-top: 15px solid black;
+  font-size: .6rem;
+  text-align: right;
+  font-weight: 900;
+  padding: 5px 0;
+}  */
