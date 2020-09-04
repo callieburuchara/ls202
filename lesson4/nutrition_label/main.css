@@ -1,89 +1,179 @@
 html {
-  box-sizing: border-box;
   font-family: Helvetica, Arial;
   font-size: 28px;
+  marin: 8px;
 }
 
 body {
-  border: 2px solid black;
-  width: 676px;
+  display: block;
+  margin: 8px;
   height: 1000px;
   font-family: Helvetica, Arial;
 }
 
+main {
+  box-sizing: border-box;
+  width: 680px;
+  padding: 10px 15px 15px 15px;
+  border: 2px solid black;
+}
+
 header {
-  padding: 5px;
-  padding-bottom: 3px;
-  margin-left: 10px;
-  margin-top: 5px;
+  margin-bottom: 10px;
+  border-bottom: 15px solid black;
 }
 
 h1 {
-  font-family: "Frankling Gothic Heavy", Arial;
-  font-size: 2rem;
+  padding: 0;
   margin: 0;
-  font-weight: 900;
+  font-size: 2rem;
 }
 
 p {
-  font-family: Helvetica, Arial;
+  margin: 0px;
+}
+
+h2 {
+  border-top: 30px solid black;
+  margin-top: 5px;
+  font-size: 1rem;
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+  margin-bottom: 5px;
+}
+
+
+dl {
   margin: 0;
 }
 
-th {
-  width: 100%
+dt {
+  display: inline;
+  font-weight: 600;
 }
 
-td {
-  width: 50%;
-  padding-top: 3px;
+dd {
+  display: inline;
+  margin: 0;
 }
 
-sup {
-  vertical-align: 10%;
+header dl {
+  display: inline-block;
+  width: 49.4%;
+  padding-bottom: 5px;
 }
 
-[colspan='2'][scope='col'] {
-  text-align: left;
-  padding: 10px 0;
-  border-top: 30px solid black;
+header dl + dl dt {
+  font-weight: 500;
 }
 
-[colspan='3'] {
+header dl + dl {
   text-align: right;
-  border-top: 15px solid black;
-  padding-top: 10px;
 }
 
 table {
-  width: 96.3%;
-  margin: auto;
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
 }
 
-td:last-child {
+th[scope='col'][colspan="3"] {
   text-align: right;
-
+  font-weight: bold;
+  padding: 1px;
 }
 
-thead th {
-  border-bottom: 0.3px solid black;
-  padding-top: 5px;
+sup {
+  vertical-align: 12%;
 }
 
-dl {
-  width: 95.5%;
-  display: block;
+tbody th {
+  border-top: 1px solid black;
 }
 
-dt, dd {
-  display: inline-block;
-  margin-left: 10
+tbody td {
+  padding: 2px 0;
+  border-top: 1px solid black;
 }
 
-/* dt:first-of-type {
-  border-top: 15px solid black;
-  font-size: .6rem;
+th[scope='col'][colspan="2"] {
+  width: 50%;
+  text-align: left;
+  padding: 2px 0;
+  font-weight: normal;
+}
+
+tr td {
   text-align: right;
-  font-weight: 900;
-  padding: 5px 0;
-}  */
+  font-weight: 600;
+  padding: 2px 0;
+}
+
+td.indent {
+  width: 20px;
+  border-top: none;
+}
+
+td dl {
+  text-align: left;
+  font-weight: normal;
+}
+
+td dl dt {
+  font-weight: normal;
+}
+
+table:first-of-type {
+  border-bottom: 19px solid black;
+}
+
+table:nth-child(3) td{
+  width: 50%;
+  font-weight: normal;
+}
+
+table:nth-child(3) td:first-child {
+  text-align: left;
+}
+
+tfoot td {
+  text-align: left;
+  padding: .5rem 0 .5rem .7rem;
+  font-size: .9rem;
+  text-indent: -.7rem;
+  border-top: 1px solid black;
+}
+
+
+table + table thead th {
+  border-bottom: 1px solid black;
+}
+
+table:last-of-type {
+  font-size: .8rem;
+  font-weight: lighter;
+  text-align: left;
+}
+
+table:last-of-type tbody td, table:last-of-type th {
+  font-weight: normal;
+}
+
+table:last-of-type tr td {
+  width: 21%;
+  text-align: left;
+}
+
+table:last-of-type tr td:first-child{
+  width: 37%;
+  text-align: left;
+}
+
+table + table td.indent {
+  width: auto;
+  text-indent: 1.2rem;
+}
+
+.no-border {
+  border: none;
+}
