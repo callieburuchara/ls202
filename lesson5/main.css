@@ -1,0 +1,81 @@
+body {
+  font-size: 16px;
+  font-family: Helvita, Arial, 'sans-serif';
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  width: 600px;
+  margin: 0 auto;
+}
+
+dt {
+  margin-bottom: 5px;
+}
+
+dd {
+  margin: 0 0 25px 0;
+  width: 100%;
+}
+
+dl {
+  margin-bottom: 0;
+}
+
+dl + dl {
+  margin-top: 0;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+  width: 100%;
+  border: 1px solid #cecece;
+  height: 30px;
+  font-size: 14px;
+  font-family: Helvita, Arial, 'sans-serif';
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 14px;
+}
+
+textarea {
+  height: auto;
+  resize: vertical;
+
+}
+
+.partial {
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.one-half {
+  width: 50%;
+}
+
+.left {
+  padding-right: 5px;
+}
+
+.right {
+  padding-left: 5
+}
+
+.one-tenth {
+  width: 10%;
+}
+
+.four-tenths {
+  width: 40%;
+}
+
+select {
+  width: 100%;
+}
