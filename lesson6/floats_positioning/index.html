@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Practice</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Inline Elements</h1>
+
+      <p>
+        Inline elements occupy the space required by the content, and nothing
+        more. They do not take width and height values.
+      </p>
+
+      <h2>Example</h2>
+
+      <p>
+        Anchor tags are inline elements: they take up the width required by their content and not the entire width of the page.
+      </p>
+
+      <ul class='inline'>
+        <li>Home</li>
+        <li>Portfolio</li>
+        <li>Contact</li>
+      </ul>
+
+      <h2>What happens when we set a margin on an inline-level element?</h2>
+
+      <p>
+        Inline elements ignore top and bottom margins but observe the left and right margins.
+      </p>
+
+      <ul class='inline margins'>
+        <li>Home</li>
+        <li>Portfolio</li>
+        <li>Contact</li>
+      </ul>
+
+      <p>
+        In the above example, we requested a margin of 30px on all sides. However, the browser ignored the top and bottom margins.
+      </p>
+
+      <h2>What about padding?</h2>
+
+      <ul class='inline padding'>
+        <li>Home</li>
+        <li>Portfolio</li>
+        <li>Contact</li>
+      </ul>
+
+      <p>
+        Inline elements accept padding on all sides.
+      </p>
+
+      <h2>Floating Inline Elements</h2>
+
+      <ul class='inline padding floating'>
+        <li>Home</li>
+        <li>Portfolio</li>
+        <li>Contact</li>
+      </ul>
+
+    </div>
+
+  </body>
+</html>
